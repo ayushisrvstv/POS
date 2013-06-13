@@ -1,11 +1,6 @@
 POS
 ===
 
-
-=
-
-
-
 Point of sale (POS) or checkout is the place where a retail transaction is completed. It is the point at which a
 customer makes a payment to a merchant in exchange for goods or services.
 At the point of sale the merchant would use any of a range of possible methods to calculate the amount owing, such
@@ -37,10 +32,12 @@ First to enter this system the users has to login to this system. Basically ther
 3.    Salesperson users- Have access to salesperson module only.
 
 •  First a login screen should be displayed to get the user details. The user has to enter the user-id and the password.
-   The password is masked with character ‘*’.
+   The password is masked with character
+   
 •  The user details should be verified against the details in the user tables and if he / she is valid user, they
    should be entered into the system. Once entered, based on the user type access to the different modules to be 
    enabled / disabled.
+   
 •	 If user enters wrong password he/she would be prompted invalid user message.
 
 This module is used to maintain the various products available in the store. Each product available in the store
